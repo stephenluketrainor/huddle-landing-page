@@ -1,0 +1,277 @@
+/* Generic stylinging for all sliders + classes */
+
+html {
+  font-size: 1em;
+}
+
+body {
+  margin: 0;
+  background-image: url('images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  word-spacing: 3px;
+}
+
+p {
+  word-spacing: 3px;
+}
+
+main {
+margin-top: 4em ;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  background-color: white;
+  border: none;
+  border-radius: 45px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.brand-container {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.fa-brands {
+  color: white;
+}
+
+
+button:hover {
+  color: white ;
+  background-color: hsl(300, 69%, 71%);
+}
+
+.fa-brands:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+  width:100%;
+  font-size: 0.5rem;
+  vertical-align: middle;
+
+}
+
+
+.attribution a {
+  color: white;
+ }
+
+/* Custom styling for different screens */
+
+/* Desktop screen */
+
+@media screen and (min-width: 1200px) {
+  .left-block {
+    display: inline-block;
+    width:45%;
+    text-align: left;
+    margin: 0 0 0 5rem;
+  }
+
+  .right-block {
+    display: inline-block;
+    /* margin-left: 2%; */
+    width:45%;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 1.2rem;
+    width: 13rem;
+    padding: 0.75em 3rem;
+    margin-top: 20px;
+  }
+
+  footer {
+    margin: 18rem 12rem 0rem 5rem;
+  }
+
+  .logo {
+    margin: 3rem 0 0 5rem;
+    width: 15rem;
+  }
+
+  .main-illustration {
+    width: 90%;
+    /* max-width:100%;
+    max-height: 100%; */
+  }
+
+  .main-text {
+    line-height: 1.5;
+    padding: 0 5em 0 0;
+  }
+
+  .brand-container {
+      text-align: right;
+      padding: 0;
+  }
+
+  .fa-brands {
+    padding: 0 0.4rem;
+
+  }
+
+  .attribution {
+    text-align: left;
+
+  }
+}
+
+/* Tablet screen */
+
+@media screen and (min-width: 900px) and (max-width:1200px)
+{
+  .left-block {
+    display: inline-block;
+    width:45%;
+    text-align: left;
+    margin: 0 0 0 5rem;
+  }
+
+  .right-block {
+    display: inline-block;
+    /* margin-left: 2%; */
+    width:45%;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 1.1rem;
+    width: 11rem;
+    padding: 0.7em 1.8rem;
+    margin-top: 18px;
+  }
+
+  footer {
+    margin: 18rem 5rem 0rem 5rem;
+  }
+
+  .logo {
+    margin: 3rem 0 0 5rem;
+    width: 15rem;
+  }
+
+  .main-illustration {
+    width: 90%;
+    /* max-width:100%;
+    max-height: 100%; */
+  }
+
+  .main-text {
+    line-height: 1.5;
+    padding: 0 5em 0 0;
+    font-size: 1rem;
+  }
+
+  .brand-container {
+      text-align: right;
+      margin: 0;
+
+  }
+
+  .fa-brands {
+    padding: 0 0.4rem;
+
+  }
+
+  .attribution {
+    text-align: left;
+
+  }
+}
+
+/* Phone screen */
+
+@media screen and (max-width: 899px)
+{
+
+  .left-block {
+    text-align: left;
+    margin: 0 5rem;
+
+  }
+
+  .right-block {
+    text-align: center;
+    margin: 0 5rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+    width: 15rem;
+    padding: 0.75em 3rem;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.75;
+  }
+
+  footer {
+    margin: 8rem 5rem 0rem 0rem;
+  }
+
+  .logo {
+    margin: 3rem 0 0 5rem;
+    width: 12rem;
+  }
+
+  .main-illustration {
+    width: 100%;
+    /* max-width:100%;
+    max-height: 100%; */
+
+  }
+
+  .main-text {
+    line-height: 1.5;
+    width: 75%;
+    margin: 0 auto 2rem auto;
+
+  }
+
+  .brand-container {
+      text-align: center;
+      padding: 0;
+  }
+
+  .fa-brands {
+    padding: 0 0.4rem;
+
+  }
+
+  .attribution {
+    margin-top: 3rem;
+    text-align: center;
+
+  }
+
+}
